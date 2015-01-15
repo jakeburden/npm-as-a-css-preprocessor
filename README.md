@@ -2,12 +2,12 @@
 
 ## Usage
 
-To build a file once:
+### To build a file once:
 
 `npm run build-css`
 
 
-To continuously watch for changes: 
+###To continuously watch for changes: 
 
 `npm run watch-css`
 
