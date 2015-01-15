@@ -2,6 +2,6 @@
   "name": "npm-as-a-css-preprocesser",
   "scripts": {
       "build-css": "cat styles/_base.css styles/_objects.css styles/_components.css > bundle.css",
-      "watch-css": "while true; do npm run build-css > bundle.css; sleep 1; done"
+      "watch-css": "while true; do npm run build-css; sleep 1; done"
   }
 }
