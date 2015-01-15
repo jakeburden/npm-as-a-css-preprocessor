@@ -1,5 +1,12 @@
 # npm-as-a-css-preprocessor
 
-concatenate modular css partials using `npm run watch-css` or `npm run build-css`
+h2 Usage
+
+To build a file once:
+`npm run build-css`
+
+
+To continuously watch for changes: 
+`npm run watch-css`
 
 scripts located in package.json
