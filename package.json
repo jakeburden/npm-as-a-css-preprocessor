@@ -1,0 +1,7 @@
+{
+  "name": "npm-as-a-css-preprocesser",
+  "scripts": {
+      "build-css": "cat styles/_base.css styles/_objects.css styles/_components.css > bundle.css",
+      "watch-css": "while true; do cat styles/_base.css styles/_objects.css styles/_components.css >| bundle.css; sleep 1; done"
+  }
+}

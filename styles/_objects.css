@@ -1,0 +1,23 @@
+nav {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tabs__item {
+	-webkit-flex-grow: 2;
+	-ms-flex-positive: 2;
+	    	flex-grow: 2;
+}
+
+.tabs__link {
+	display: block;
+}
